@@ -1,0 +1,83 @@
+Bars and groups generate various events as they run and when they are changed.
+
+Your addon may register a function to these events with the :RegisterCallback(event, function) command; **function** is ran whenever **event** occurs.
+
+Functions responding to events have 2 or more parameters:
+# **event** - The name of the event that called the function.
+# **object** - The bar or group object.
+# **...** - Data values if any.
+
+== Example
+{{{
+local function barstop(event, bar, ...)
+    print (bar.FB_Label:GetText(bar).." stopped!")
+end
+
+local fb = LibStub("LibFancyBar-1.0")
+local bar = fb:NewBar()
+
+--runs the 'barstop' function when the bar is stopped
+bar:RegisterCallback("FancyBar_BarStop", barstop)
+}}}
+== Bar Events
+=== FancyBar_BarStart
+Occurs when the bar is started with the :Start() function.
+
+Values: none.
+=== FancyBar_TimerExpire
+Occurs when the bar's timer expires.
+
+Values: none.
+=== FancyBar_BarGhostStart, FancyBar_BarGhostEnd
+Occur when the bar's ghost phase starts/ends.
+
+Values: none.
+=== FancyBar_BarFadeoutStart, FancyBar_BarFadeoutEnd
+Occur when the bar starts/finishes fading out.
+
+Values: none.
+=== FancyBar_BarStop
+Occurs when the bar is stopped and destroyed, either by its timer running out (and after the ghost and fadeout phases), or if it's stopped with the :Stop() function.
+
+Values: none.
+== Group Events
+=== FancyBar_GroupMove
+Occurs when the group is dragged to a new position by the user.
+
+Values:
+# **point** - Point on the group at which it is to be anchored to another.
+# **relativeTo** - Reference to the other region to which this region is to be anchored; this is usually nil which means **UIParent** (the whole screen).
+# **relativePoint** - Point on the other region to which this region is to be anchored.
+# **xOffset** - Horizontal distance between point and relativePoint (in pixels; positive values put point to the right of relativePoint).
+# **yOffset** - Vertical distance between point and relativePoint (in pixels; positive values put point below relativePoint).
+=== FancyBar_GroupResize
+Occurs when the group is resized by the user.
+
+Values:
+# **width** - The group's new width.
+== FancyBar_GroupColumns
+Occurs when the group's number of columns is changed.
+
+Values:
+# **columns** - The new number of columns.
+== FancyBar_GroupVisibleBars
+Occurs when the group's number of visible bars is changed.
+
+Values:
+# **bars** - The new number of bars.
+== FancyBar_GroupSorting
+Occurs when the group's sorting method is changed.
+
+Values:
+# **sortField** - The new sorting field
+# **sortAscending** - Is the sorting ascending (true) or descending (false)
+== FancyBar_GroupStartPoint
+Occurs when the group's start point (which side the bars start on) is changed.
+
+Values:
+# **point** - The new starting point.
+== FancyBar_GroupIconMode
+Occurs when the group's icon mode (bars show up as icons) is changed.
+
+Values:
+# **size** - The icon size if it's on, false otherwise.

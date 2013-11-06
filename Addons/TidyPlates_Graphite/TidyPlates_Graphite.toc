@@ -1,0 +1,11 @@
+## Interface: 50400
+## X-BigfootType: 4
+## X-BigfootDesc: |cFF4488FF此模块依赖于 TidyPlates, TidyPlatesHub 主模块|r 
+## Title: Tidy Plates: Graphite
+## Notes: Minimalisty
+## Author: Binny
+## Dependencies: TidyPlates, TidyPlatesHub
+
+TidyPlates_Graphite.lua
+
+

@@ -1,0 +1,9 @@
+## Interface: 50400
+## X-BigfootType: 4
+## X-BigfootDesc: |cFF4488FF此模块依赖于 TidyPlates, TidyPlatesHub 主模块|r 
+## Title: Tidy Plates: Grey Theme
+## Notes: Use apostrophes wisely.
+## Author: Binny
+## Dependencies: TidyPlates, TidyPlatesHub
+
+Grey.lua

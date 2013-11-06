@@ -1,0 +1,92 @@
+* 2.5.5
+- Fixed a bug with target anchor.
+
+* 2.5.4
+- Anchors now wont show the player's cooldowns.
+
+* 2.5.3
+- Spell updates.
+- Library updates.
+- Fixed a bug with the Test bars. 
+
+* 2.5.2
+- Updated for 5.3.
+
+* 2.5.1
+- Fixed a file zip coding bug.
+
+* 2.5.0
+-5.2 update
+
+------------------------------------------------------------------------
+r109 | zardas2 | 2012-09-20 10:59:20 +0000 (Thu, 20 Sep 2012) | 2 lines
+Changed paths:
+   A /tags/2.4.0-release (from /trunk:108)
+
+Tagging as 2.4.0-release
+5.0 update
+------------------------------------------------------------------------
+r108 | zardas2 | 2012-09-20 10:58:27 +0000 (Thu, 20 Sep 2012) | 1 line
+Changed paths:
+   M /trunk/Spells/Racials.lua
+   M /trunk/Spells/Shaman.lua
+   M /trunk/Spells/Warlock.lua
+   M /trunk/Spells/Warrior.lua
+
+5.0 update finished.
+------------------------------------------------------------------------
+r107 | zardas2 | 2012-09-19 12:28:16 +0000 (Wed, 19 Sep 2012) | 1 line
+Changed paths:
+   M /trunk/Spells/Paladin.lua
+   M /trunk/Spells/Priest.lua
+   M /trunk/Spells/Rogue.lua
+
+8/11 classes done.
+------------------------------------------------------------------------
+r106 | zardas2 | 2012-09-18 11:16:50 +0000 (Tue, 18 Sep 2012) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Constants.lua
+   M /trunk/PVPTimer.toc
+
+Spec names and icons are now extracted ingame, LibBabble dependency removed.
+------------------------------------------------------------------------
+r105 | zardas2 | 2012-09-18 10:40:07 +0000 (Tue, 18 Sep 2012) | 2 lines
+Changed paths:
+   M /trunk/Spells/Mage.lua
+   A /trunk/Spells/Monk.lua (from /trunk/Spells/Paladin.lua:104)
+   M /trunk/Spells/_usage.txt
+
+5/11 complete.
+Added Monk spells.
+------------------------------------------------------------------------
+r104 | zardas2 | 2012-09-17 13:30:53 +0000 (Mon, 17 Sep 2012) | 1 line
+Changed paths:
+   M /trunk/Constants.lua
+   M /trunk/Spells/DK.lua
+   M /trunk/Spells/Druid.lua
+   M /trunk/Spells/Hunter.lua
+   M /trunk/Spells/Mage.lua
+   M /trunk/Spells/Paladin.lua
+   M /trunk/Spells/Priest.lua
+   M /trunk/Spells/Rogue.lua
+   M /trunk/Spells/Warlock.lua
+   M /trunk/Spells/Warrior.lua
+
+Removed old spells, updated new spell IDs.
+------------------------------------------------------------------------
+r103 | zardas2 | 2012-09-17 13:14:08 +0000 (Mon, 17 Sep 2012) | 1 line
+Changed paths:
+   M /trunk/Config_Spells.lua
+   M /trunk/Constants.lua
+   M /trunk/Functions.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Main.lua
+   M /trunk/PVPTimer.toc
+   M /trunk/Spells/DK.lua
+   M /trunk/Spells/Druid.lua
+   M /trunk/Spells/Hunter.lua
+   M /trunk/Spells/Warrior.lua
+
+Updating for 5.0 in progress, 3/11 classes done.
+------------------------------------------------------------------------

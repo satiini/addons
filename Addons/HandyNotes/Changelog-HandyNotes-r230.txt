@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r230 | stanzilla | 2013-06-05 19:51:27 +0000 (Wed, 05 Jun 2013) | 1 line
+Changed paths:
+   M /trunk/HandyNotes.toc
+
+TOC Bump (from 40000, scary o.o) to get the latest Astrolabe
+------------------------------------------------------------------------
+r229 | durcyn | 2012-11-29 20:20:46 +0000 (Thu, 29 Nov 2012) | 1 line
+Changed paths:
+   M /trunk/HandyNotes_EditFrame.lua
+
+clobber setglobal "temp"
+------------------------------------------------------------------------

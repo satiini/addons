@@ -1,0 +1,9 @@
+## Interface: 50400
+## X-BigfootType: 4
+## X-BigfootDesc: |cFF4488FF[主模块]|r TidyPlates是一款已经开发的强大到爆的姓名板美化增强插件，可选的多款姓名板皮肤下载，强大醒目的3个等级的仇恨发光，特别适用于坦克群拉。
+## Title: Tidy Plates Widgets
+## Notes: Library of Widgets
+## Dependencies: TidyPlates
+## SavedVariables: TidyPlatesWidgetData
+
+Widgets.xml

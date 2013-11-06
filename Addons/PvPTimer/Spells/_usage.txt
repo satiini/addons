@@ -1,0 +1,30 @@
+Spell attributes:
+
+class = class name | "RACIAL" | "ITEM"
+	Class that uses this spell, or if it's a racial or item ability.
+
+spec = 1/2/3/4
+	Only available on a certain spec. Used to detect spec of players.
+
+duration = n
+	Duration of the spell in seconds. Not used for now.
+
+duration_g = n
+	Change in duration when spell is glyphed.
+
+duration_s1 = n
+duration_s2 = n
+duration_s3 = n
+duration_s4 = n
+	Change in duration on different talent specs.
+	
+cooldown, cooldown_g, ...: Same format. If not specified, base cooldown is automatically detected ingame.
+
+type = 'offensive' | 'defensive' | ...
+	Type of the spell. Default is 'misc' (miscellaneous spell).
+
+resets = {spellID1, spellID2, ...} | 'all'
+	Using this ability resets the cooldown on other spells, or 'all' if it resets everything.
+
+pet = true | false
+	Is this a pet spell?
